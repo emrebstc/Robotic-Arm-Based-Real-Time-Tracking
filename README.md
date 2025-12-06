@@ -23,3 +23,14 @@ The control is executed in the main loop using **non-blocking, step-by-step** fu
 * **Input:** Camera (Receiving DX, DY coordinates via UART) and Ultrasonic Sensor (TIM Input Capture).
 * **Output:** PWM control for the Servo motors.
 * **Software:** Developed using C language and STM32 HAL Drivers.
+
+## 🛠️ Hardware and Tools Used
+
+This project involves a sensor fusion architecture, utilizing the processing power of a single-board computer for vision and a microcontroller for precise motor control. 
+
+* **Microcontroller:** **STM32F407VGT6** Development Board (Handles PWM generation and Ultrasonic timing).
+* **Vision Processing Unit (VPU):** **Raspberry Pi 5** (Used for running the vision algorithm, detecting the object, and sending the processed DX/DY coordinates to the STM32 via UART/Serial Communication).
+* **Actuators (Servos):** **6x MG996R** Metal Gear Servos (Used for moving the joints of the robotic arm).
+* **Camera Input:** **1x USB Camera** (Provides the visual feed to the Raspberry Pi for object detection).
+* **Distance Sensor:** **1x HC-SR04** Ultrasonic Sensor (Provides real-time distance measurements for the proximity control of Servo 5).
+* **Interface:** **1x Logic Level Converter** (Essential for safe communication between the 3.3V STM32/Raspberry Pi logic and other components, if needed, or specifically for connecting the Raspberry Pi (1.8V/3.3V) to 5V servos or sensors if not directly compatible).
