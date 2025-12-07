@@ -6,7 +6,9 @@ I shared two versions, one made with functions and the other made with freeRTOS.
 
 ## 💡 Project Goal
 
-The primary objective is to use **Image Processing (Camera)** data to lock the arm's horizontal (Pan) and vertical (Tilt) axes onto the target, while simultaneously using data from an **Ultrasonic Distance Sensor** to control the arm's reach (Proximity) to maintain a fixed distance (e.g., 5 cm) from the object.
+* It is a project based on embedded systems and artificial intelligence, designed to understand freeRTOS and various algorithms. It is a project designed for learning purposes, and the main purpose is to create a project that uses all these systems together.
+
+* The primary objective is to use **Image Processing (Camera)** data to lock the arm's horizontal (Pan) and vertical (Tilt) axes onto the target, while simultaneously using data from an **Ultrasonic Distance Sensor** to control the arm's reach (Proximity) to maintain a fixed distance (e.g., 5 cm) from the object.
 
 ## ✨ Key Control Mechanisms
 
