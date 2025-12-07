@@ -41,3 +41,4 @@ This project involves a sensor fusion architecture, utilizing the processing pow
 * https://downloads.raspberrypi.com/raspios_lite_arm64/images/  - Raspberry Pi OS Lite
 * https://www.raspberrypi.com/software/ -  Raspberry Pi Imager
 * https://www.st.com/en/development-tools/stm32cubeide.html - STM32CubeIDE 1.19.0
+* https://onnxruntime.ai/docs/performance/model-optimizations/quantization.html - onnx file quantization quide
