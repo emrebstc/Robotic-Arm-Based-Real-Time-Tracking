@@ -60,3 +60,10 @@ https://github.com/user-attachments/assets/c546d577-b156-47b1-aba9-77057f3d7076
 ![4](https://github.com/user-attachments/assets/eb2684df-f0fd-4bee-891d-0c92902e0025)
 
 ![3](https://github.com/user-attachments/assets/541096cc-e399-48e0-8b54-a19156c07dac)
+
+
+################################################################################################
+* The PID algorithm can also be integrated by making various servo modifications. To test this, I connected a cable to the internal potentiometer of the servos as seen in the picture, so it is possible to get analog feedback.
+
+![Modify](https://github.com/user-attachments/assets/cf1bcfe5-4560-4166-9c67-ad90d7a73c89)
+
