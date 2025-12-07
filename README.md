@@ -59,6 +59,4 @@ https://github.com/user-attachments/assets/c546d577-b156-47b1-aba9-77057f3d7076
 
 ![4](https://github.com/user-attachments/assets/eb2684df-f0fd-4bee-891d-0c92902e0025)
 
-![8](https://github.com/user-attachments/assets/47cbbeec-4660-4097-a527-41b01ad519c6)
-
 ![3](https://github.com/user-attachments/assets/541096cc-e399-48e0-8b54-a19156c07dac)
