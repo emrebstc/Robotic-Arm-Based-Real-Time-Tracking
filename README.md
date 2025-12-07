@@ -36,9 +36,8 @@ This project involves a sensor fusion architecture, utilizing the processing pow
 * **Distance Sensor:** **1x HC-SR04** Ultrasonic Sensor (Provides real-time distance measurements for the proximity control of Servo 5).
 * **Interface:** **1x Logic Level Converter** (Essential for safe communication between the 3.3V STM32/Raspberry Pi logic and other components, if needed, or specifically for connecting the Raspberry Pi (1.8V/3.3V) to 5V servos or sensors if not directly compatible).
 
-## 🛠️ Hardware and Tools Used
+## 🛠️ Resources used
 
-* **Resources used;**
 * https://github.com/ultralytics/ultralytics  - Yolov8n or Yolov5nu from Ultralytics
 * https://docs.ultralytics.com/tr/models/yolov5/#performance-metrics 
 * https://downloads.raspberrypi.com/raspios_lite_arm64/images/  - Raspberry Pi OS Lite
@@ -46,3 +45,20 @@ This project involves a sensor fusion architecture, utilizing the processing pow
 * https://www.st.com/en/development-tools/stm32cubeide.html - STM32CubeIDE 1.19.0
 * https://onnxruntime.ai/docs/performance/model-optimizations/quantization.html - onnx file quantization quide
   
+## Example
+
+https://github.com/user-attachments/assets/c546d577-b156-47b1-aba9-77057f3d7076
+
+![1](https://github.com/user-attachments/assets/07d55908-e288-49ff-83a2-9dd3886d27fd)
+
+![5](https://github.com/user-attachments/assets/b35c4ec6-c2f5-440e-b696-ef715a30097d)
+
+![8](https://github.com/user-attachments/assets/a496d430-7ca1-44a0-8f62-55f8a21e27a7)
+
+![2](https://github.com/user-attachments/assets/c1678fa8-820e-47e3-980e-b0647dd59533)
+
+![4](https://github.com/user-attachments/assets/eb2684df-f0fd-4bee-891d-0c92902e0025)
+
+![8](https://github.com/user-attachments/assets/47cbbeec-4660-4097-a527-41b01ad519c6)
+
+![3](https://github.com/user-attachments/assets/541096cc-e399-48e0-8b54-a19156c07dac)
