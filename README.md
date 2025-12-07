@@ -34,3 +34,10 @@ This project involves a sensor fusion architecture, utilizing the processing pow
 * **Distance Sensor:** **1x HC-SR04** Ultrasonic Sensor (Provides real-time distance measurements for the proximity control of Servo 5).
 * **Interface:** **1x Logic Level Converter** (Essential for safe communication between the 3.3V STM32/Raspberry Pi logic and other components, if needed, or specifically for connecting the Raspberry Pi (1.8V/3.3V) to 5V servos or sensors if not directly compatible).
 
+## 🛠️ Hardware and Tools Used
+
+* **Resources used;**
+* https://github.com/ultralytics/ultralytics  - Yolov8n or Yolov5nu from Ultralytics
+* https://downloads.raspberrypi.com/raspios_lite_arm64/images/  - Raspberry Pi OS Lite
+* https://www.raspberrypi.com/software/ -  Raspberry Pi Imager
+* https://www.st.com/en/development-tools/stm32cubeide.html - STM32CubeIDE 1.19.0
