@@ -6,10 +6,10 @@ import time
 
 try:
     ser = serial.Serial('/dev/ttyAMA0', 115200, timeout=1)
-    print("UART Portu başarıyla açıldı: /dev/ttyAMA0")
+    print("UART Portu basariyla acildi: /dev/ttyAMA0")
 except serial.SerialException as e:
 
-    print(f"Hata: UART portu açılamadı. Simülasyon modunda çalışılıyor. Hata: {e}")
+    print(f"Hata: UART portu acilamadi. Hata: {e}")
     ser = None
 
 camera = cv2.VideoCapture(0)
@@ -33,11 +33,10 @@ filtered_dy = 0.0
 while True:
     success, frame = camera.read()
     if not success:
-        print("Kamera okuma hatası! Bekleniyor...")
+        print("Kamera okuma hatasi")
         time.sleep(0.1)
         continue
 
-    # YOLOv8 ile tahmin yapılıyor (stream=True kaldırıldı, verbose=False)
     results = model.predict(frame, classes=[TARGET_CLASS_ID], conf=model.conf, verbose=False)
     
     raw_dx, raw_dy = None, None 
@@ -79,6 +78,7 @@ while True:
             ser.write(data_str.encode('utf-8'))
             print(f"SENT: DX:{final_dx}, DY:{final_dy} | Last Raw DX/DY: {raw_dx}/{raw_dy}")
         except Exception as e:
-            print(f"UART Gönderme Hatası: {e}")
+            print(f"UART Gonderme Hatasi: {e}")
     else:
         print(f"Simüle SENT: DX:{final_dx}, DY:{final_dy} | Last Raw DX/DY: {raw_dx}/{raw_dy}")
+
